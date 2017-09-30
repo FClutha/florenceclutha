@@ -1,0 +1,20 @@
+body {
+    background-image: url();
+    background-color: #E8E9EB;
+}
+/*input[type="submit"] {
+    color: #F09D51;
+}*/
+.full_stop {
+    color: #F06543;
+}
+a {
+    color: #F06543;
+}
+h1, p {
+    text-indent: 20%;
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    margin: 100px 0 0 0;
+}
