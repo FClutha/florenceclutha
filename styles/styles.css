@@ -1,23 +1,127 @@
 body {
-    background-image: url();
-    background-color: #E8E9EB;
+  background-color: #E8E9EB;
 }
-/*input[type="submit"] {
-    color: #F09D51;
-}*/
+
 .full_stop {
-    color: #F06543;
+  color: #F06543;
 }
-a {
-    color: #F06543;
+
+.wonderbly_link {
+  color: #F06543;
 }
-h1, p {
-    text-indent: 20%;
-    font-family: 'Open Sans', sans-serif;
+
+.intro {
+  /*text-indent: 20%;*/
+  font-family: 'Open Sans', sans-serif;
 }
-h1 {
+
+.unordered_list {
+  position: fixed;
+  top: 0;
+  list-style-type: none;
+}
+
+@media all and (max-width: 1280px) {
+  .unordered_list {
+    padding: 0 0 0 0;
+    float: right;
+    /*padding-left: 100px;*/
+  }
+  .nav_bar {
+    display: inline;
+    padding: 15px 15px 15px 0;
+    color: black;
+    text-decoration: none;
+    /*float: right;*/
+  }
+  .nav_img {
+    width: 25px;
+    /*margin: 0 0 0 100px;*/
+  }
+  .container {
+    /*margin: 100px 180px 0 180px;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 650px;
+  }
+  .title {
+    /*text-indent: 100px;*/
+  }
+  .blurb {
+    /*background-color: white;*/
+    background-color: #E8E9EB;
+    /*padding: 0 100px 0 100px;*/
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .unordered_list {
+    /*padding: 0 100px 0 100px;*/
+    /*padding-left: 100px;*/
+  }
+  .nav_bar {
+    display: inline;
+    padding: 15px 15px 15px 0;
+    color: black;
+    text-decoration: none;
+  }
+  .nav_img {
+    width: 25px;
+    /*margin: 0 0 0 100px;*/
+  }
+  .container {
+    /*margin: 100px 180px 0 180px;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 450px;
+  }
+  .intro {
     margin: 100px 0 0 0;
+  }
+  .title {
+    /*text-indent: 100px;*/
+  }
+  .blurb {
+    /*background-color: white;*/
+    background-color: #E8E9EB;
+    /*padding: 0 100px 0 100px;*/
+  }
 }
-.freebirdFormviewerViewCenteredContent {
-    background-color: #F06543;
+
+@media screen and (max-width: 600px) {
+  .unordered_list {
+    /*padding: 0 50px 0 50px;*/
+    /*padding-left: 100px;*/
+  }
+  .nav_bar {
+    display: inline;
+    padding: 15px 15px 15px 0;
+  }
+  .nav_bar a {
+    color: black;
+    text-decoration: none;
+  }
+  .nav_img {
+    width: 25px;
+  }
+  .container {
+    /*margin: 100px 180px 0 180px;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 300px;
+  }
+  .intro {
+    /*margin: 100px 0 0 0;*/
+  }
+  .title {
+    /*text-indent: 50px;*/
+  }
+  .blurb {
+    /*background-color: white;*/
+    background-color: #E8E9EB;
+    /*padding: 0 50px 0 50px;*/
+  }
 }
