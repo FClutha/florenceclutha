@@ -21,7 +21,6 @@ body {
   list-style-type: none;
 }
 
-@media all and (max-width: 2600px) {
   .unordered_list {
     padding: 0 0 0 0;
     float: right;
@@ -53,7 +52,6 @@ body {
     background-color: #E8E9EB;
     /*padding: 0 100px 0 100px;*/
   }
-}
 
 @media screen and (max-width: 900px) {
   .unordered_list {
